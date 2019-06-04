@@ -14,7 +14,7 @@
         .state('ui.slider', {
           url: '/slider',
           templateUrl: 'app/pages/ui/slider/slider.html',
-          title: 'Sliders',
+          title: '切换特效',
           sidebarMeta: {
             order: 1000,
           },

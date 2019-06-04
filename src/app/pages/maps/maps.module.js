@@ -15,7 +15,7 @@
           url: '/maps',
           templateUrl: 'app/pages/maps/maps.html',
           abstract: true,
-          title: 'Maps',
+          title: '地图',
           sidebarMeta: {
             icon: 'ion-ios-location-outline',
             order: 500,
@@ -25,7 +25,7 @@
           url: '/gmap',
           templateUrl: 'app/pages/maps/google-maps/google-maps.html',
           controller: 'GmapPageCtrl',
-          title: 'Google Maps',
+          title: '谷歌地图',
           sidebarMeta: {
             order: 0,
           },
@@ -34,7 +34,7 @@
           url: '/leaflet',
           templateUrl: 'app/pages/maps/leaflet/leaflet.html',
           controller: 'LeafletPageCtrl',
-          title: 'Leaflet Maps',
+          title: '百度地图',
           sidebarMeta: {
             order: 100,
           },
@@ -43,7 +43,7 @@
           url: '/bubble',
           templateUrl: 'app/pages/maps/map-bubbles/map-bubbles.html',
           controller: 'MapBubblePageCtrl',
-          title: 'Bubble Maps',
+          title: '高德地图',
           sidebarMeta: {
             order: 200,
           },
@@ -52,7 +52,7 @@
           url: '/line',
           templateUrl: 'app/pages/maps/map-lines/map-lines.html',
           controller: 'MapLinesPageCtrl',
-          title: 'Line Maps',
+          title: '搜狗地图',
           sidebarMeta: {
             order: 300,
           },

@@ -24,18 +24,18 @@
     $urlRouterProvider.otherwise('/dashboard');
 
     baSidebarServiceProvider.addStaticItem({
-      title: 'Pages',
+      title: '页面',
       icon: 'ion-document',
       subMenu: [{
-        title: 'Sign In',
+        title: '登录',
         fixedHref: 'auth.html',
         blank: true
       }, {
-        title: 'Sign Up',
+        title: '注册',
         fixedHref: 'reg.html',
         blank: true
       }, {
-        title: 'User Profile',
+        title: '个人信息',
         stateRef: 'profile'
       }, {
         title: '404 Page',
@@ -44,15 +44,15 @@
       }]
     });
     baSidebarServiceProvider.addStaticItem({
-      title: 'Menu Level 1',
+      title: '大纲级别 1',
       icon: 'ion-ios-more',
       subMenu: [{
-        title: 'Menu Level 1.1',
+        title: '大纲级别 1.1',
         disabled: true
       }, {
-        title: 'Menu Level 1.2',
+        title: '大纲级别 1.2',
         subMenu: [{
-          title: 'Menu Level 1.2.1',
+          title: '大纲级别 1.2.1',
           disabled: true
         }]
       }]

@@ -14,7 +14,7 @@
         .state('ui.progressBars', {
           url: '/progressBars',
           templateUrl: 'app/pages/ui/progressBars/progressBars.html',
-          title: 'Progress Bars',
+          title: '进度条',
           sidebarMeta: {
             order: 600,
           },

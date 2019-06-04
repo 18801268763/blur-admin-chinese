@@ -27,7 +27,7 @@
           url: '/ui',
           template : '<ui-view  autoscroll="true" autoscroll-body-top></ui-view>',
           abstract: true,
-          title: 'UI Features',
+          title: '图形界面',
           sidebarMeta: {
             icon: 'ion-android-laptop',
             order: 200,

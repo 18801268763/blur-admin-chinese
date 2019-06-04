@@ -15,7 +15,7 @@
           url: '/icons',
           templateUrl: 'app/pages/ui/icons/icons.html',
           controller: 'IconsPageCtrl',
-          title: 'Icons',
+          title: '小图标',
           sidebarMeta: {
             order: 200,
           },

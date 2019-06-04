@@ -14,7 +14,7 @@
         .state('charts.chartist', {
           url: '/chartist',
           templateUrl: 'app/pages/charts/chartist/chartist.html',
-          title: 'Chartist',
+          title: '图表列表',
           sidebarMeta: {
             order: 100,
           },

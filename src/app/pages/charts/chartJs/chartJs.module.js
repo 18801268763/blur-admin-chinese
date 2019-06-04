@@ -14,7 +14,7 @@
             .state('charts.chartJs', {
                 url: '/chartJs',
                 templateUrl: 'app/pages/charts/chartJs/chartJs.html',
-                title: 'Chart.js',
+                title: '饼状图',
                 sidebarMeta: {
                     order: 200
                 }

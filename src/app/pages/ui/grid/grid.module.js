@@ -14,7 +14,7 @@
         .state('ui.grid', {
           url: '/grid',
           templateUrl: 'app/pages/ui/grid/grid.html',
-          title: 'Grid',
+          title: '碎花格子',
           sidebarMeta: {
             order: 400,
           },

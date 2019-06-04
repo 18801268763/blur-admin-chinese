@@ -18,7 +18,7 @@
         .state('components.tree', {
           url: '/tree',
           templateUrl: 'app/pages/components/tree/tree.html',
-          title: 'Tree View',
+          title: '树形图',
           sidebarMeta: {
             order: 200,
           },

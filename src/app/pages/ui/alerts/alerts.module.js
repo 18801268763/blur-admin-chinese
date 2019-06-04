@@ -14,7 +14,7 @@
         .state('ui.alerts', {
           url: '/alerts',
           templateUrl: 'app/pages/ui/alerts/alerts.html',
-          title: 'Alerts',
+          title: '警告信息',
           sidebarMeta: {
             order: 500,
           },

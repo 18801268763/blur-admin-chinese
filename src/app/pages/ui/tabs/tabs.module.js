@@ -14,7 +14,7 @@
         .state('ui.tabs', {
           url: '/tabs',
           templateUrl: 'app/pages/ui/tabs/tabs.html',
-          title: 'Tabs & Accordions',
+          title: '标签',
           sidebarMeta: {
             order: 800,
           },

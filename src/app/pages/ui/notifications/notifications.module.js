@@ -15,7 +15,7 @@
           url: '/notifications',
           templateUrl: 'app/pages/ui/notifications/notifications.html',
           controller: 'NotificationsPageCtrl',
-          title: 'Notifications',
+          title: '通知',
           sidebarMeta: {
             order: 700,
           },

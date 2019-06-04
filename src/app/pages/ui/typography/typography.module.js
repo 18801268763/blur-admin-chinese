@@ -14,7 +14,7 @@
         .state('ui.typography', {
           url: '/typography',
           templateUrl: 'app/pages/ui/typography/typography.html',
-          title: 'Typography',
+          title: '排版',
           sidebarMeta: {
             order: 0,
           },

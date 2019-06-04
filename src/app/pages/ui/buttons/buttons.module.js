@@ -15,7 +15,7 @@
           url: '/buttons',
           templateUrl: 'app/pages/ui/buttons/buttons.html',
           controller: 'ButtonPageCtrl',
-          title: 'Buttons',
+          title: '按钮',
           sidebarMeta: {
             order: 100,
           },

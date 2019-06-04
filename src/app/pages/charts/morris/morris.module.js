@@ -20,7 +20,7 @@
         .state('charts.morris', {
           url: '/morris',
           templateUrl: 'app/pages/charts/morris/morris.html',
-          title: 'Morris',
+          title: '镜像图',
           sidebarMeta: {
             order: 300,
           }

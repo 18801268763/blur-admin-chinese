@@ -16,7 +16,7 @@
           template : '<ui-view  autoscroll="true" autoscroll-body-top></ui-view>',
           abstract: true,
           controller: 'TablesPageCtrl',
-          title: 'Tables',
+          title: '表格',
           sidebarMeta: {
             icon: 'ion-grid',
             order: 300,
@@ -24,14 +24,14 @@
         }).state('tables.basic', {
           url: '/basic',
           templateUrl: 'app/pages/tables/basic/tables.html',
-          title: 'Basic Tables',
+          title: '基本表格',
           sidebarMeta: {
             order: 0,
           },
         }).state('tables.smart', {
           url: '/smart',
           templateUrl: 'app/pages/tables/smart/tables.html',
-          title: 'Smart Tables',
+          title: '智能表格',
           sidebarMeta: {
             order: 100,
           },
