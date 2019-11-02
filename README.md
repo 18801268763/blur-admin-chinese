@@ -46,3 +46,9 @@ License
 
 Enjoy!
 We're always happy to hear your feedback.
+
+
+
+### From Oliver
+本地加载时间4.29秒
+远程加载时间13.28秒
